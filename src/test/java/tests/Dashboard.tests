@@ -1,0 +1,27 @@
+Test: To verify Dashboard List view functionality
+#Android #TC35 #dashboard #ITC39 #iOS
+Collection: login in Leonardo app
+Verify: @dashboard is displayed
+Step: pause for 1 sec
+Code: Click on list tab
+Step: pause for 4 sec
+Verify: @list_Tab text is equal to 'LIST'
+Verify: @list_Page is displayed
+Code: Swipe Left
+Step: pause for 1 sec
+Verify: @eye_Icon is displayed
+Step: Click on @eye_Icon
+Step: pause for 2 sec
+Step: Click on @list_Page_screen
+Step: pause for 1 sec
+Verify: @tasks_Page is displayed
+End
+
+Test: To verify Dashboard Map View
+#Android #TC36 #dashboard #ITC41 #iOS
+Collection: login in Leonardo app
+Verify: @dashboard is displayed
+Step: pause for 1 sec
+Verify: @list_Tab text is equal to 'LIST'
+Verify: @map_Tab text is equal to 'MAP'
+End

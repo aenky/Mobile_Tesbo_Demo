@@ -1,0 +1,28 @@
+{
+  "map_Tab": {
+    "iOS": "//XCUIElementTypeOther[@name=\"MAP\"]",
+    "Android": "//android.widget.TextView[@text='MAP']"
+  },
+  "list_Tab": {
+    "Android":"//android.widget.TextView[@text='LIST']",
+    "iOS": "//XCUIElementTypeOther[@name=\"LIST\"]"
+  },
+  "list_Page": {
+    "iOS": "//XCUIElementTypeStaticText[@name='MY PROPERTIES: ']",
+    "Android": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup[2]/android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.widget.TextView"
+  },
+  "property": "//android.widget.TextView[@text='DD Test Property 14']",
+  "eye_Icon": {
+    "Android": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup[2]/android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup/android.widget.ImageView",
+    "iOS": "(//XCUIElementTypeOther[@name='DD Test Property 14 Due Diligence Testing - Mobile App 1 %'])[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther"
+  },
+  "tasks_Page": {
+    "Android": "(//android.widget.TextView[@text='Tasks'])[1]",
+    "iOS": "//XCUIElementTypeStaticText[@name='Tasks']"
+  },
+  "list_Page_screen": {
+    "Android": "//android.widget.TextView[@text='Navigate to the Dashboard.']",
+    "iOS": "(//XCUIElementTypeOther[@name='Navigate to the Dashboard. Toggle between task types. Tasks are grouped by category. Tapping will collapse the group. Swipe left to display options to complete a task, set it to cannot do, or snooze. Swipe right to display options to comment or assign task.'])[2]"
+  }
+
+}

@@ -1,0 +1,48 @@
+{
+  "userNameField" : {
+    "Android": "//android.widget.EditText[1]",
+    "iOS": "(//XCUIElementTypeOther[@name='Username'])[2]/XCUIElementTypeTextField"
+  },
+  "PasswordField" : {
+    "Android": "//android.widget.EditText[2]",
+    "iOS": "//XCUIElementTypeOther[@name='Password']/XCUIElementTypeSecureTextField"
+  },
+  "screen": {
+    "iOS": "(//XCUIElementTypeOther[@name='We are happy to announce that the Leonardo247 app has been updated with new features and navigation. We have included these helpful overlays to show you what has changed. Tap anywhere to continue.'])[2]",
+    "Android":"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.TextView[1]"
+  },
+    "otherScreen":{
+      "Android": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.TextView[2]",
+      "iOS": "(//XCUIElementTypeOther[@name='Navigate to the Task List. New options to apply filters and manage settings. Tapping on a property pin will display metrics and allow you to navigate to the Task List.'])[2]"
+    },
+  "dashboard": {
+    "iOS": "//XCUIElementTypeStaticText[@name='Dashboard']",
+    "Android":"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.TextView"
+  },
+    "settingBtn": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup[3]/android.view.ViewGroup[2]/android.widget.ImageView",
+    "logOutButton": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup[11]/android.widget.TextView",
+
+  "loginButton" : {
+    "iOS": "//XCUIElementTypeOther[@name='Login']",
+    "Android":"//android.widget.TextView[@text='Login']"},
+
+  "progressBar_Icon": {
+    "iOS": "//XCUIElementTypeOther[@name='In progress']",
+    "Android": "//android.widget.ProgressBar"
+  },
+
+  "sideMenu" : {
+    "iOS": "(//XCUIElementTypeOther[@name='Dashboard'])[5]/XCUIElementTypeOther[1]/XCUIElementTypeOther",
+    "Android":"(//android.widget.ImageView)[1]"
+  },
+
+  "login_Page": {
+    "iOS": "//XCUIElementTypeOther[@name='Username Password Forgot Password? Login Version number: 2.1.8(100053)-P-ios'])[12]/XCUIElementTypeOther[1]/XCUIElementTypeImage",
+    "Android":"//android.widget.TextView[contains(@text,'Version number:')]"
+  },
+
+  "NoThanks": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[4]/android.widget.TextView"
+
+
+
+}

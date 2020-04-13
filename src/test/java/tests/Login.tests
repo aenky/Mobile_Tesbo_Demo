@@ -1,0 +1,25 @@
+Collection Name: login in Leonardo app
+Step: pause for 10 sec
+Step: click on @NoThanks
+Verify: @login_Page is displayed
+Step: enter 'ddtester14@leonardo.com' into @userNameField field
+Step: enter 'sagar@123' into @PasswordField field
+Step: click on @loginButton
+Step: pause for 5 sec
+Step: pause until @progressBar_Icon is disappear
+Step: Click on @screen
+Step: pause for 2 sec
+Step: Click on @otherScreen
+Step: pause for 2 sec
+End
+
+Test: To verify Login with valid details functionality
+#TC1 #All #ITC1
+Collection: login in Leonardo app
+Verify: @sideMenu is displayed
+Step: pause for 1 sec
+Verify: @dashboard is displayed
+Step: pause for 2 sec
+End
+
+

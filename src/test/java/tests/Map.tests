@@ -1,0 +1,15 @@
+Test: To verify Map functionality
+#Android #TC25 #map #ITC30 #iOS
+Collection: login in Leonardo app
+Verify: @dashboard is displayed
+Verify: @map_Locator_Icon is displayed
+Step: Click on @map_Locator_Icon
+Step: pause for 2 sec
+Verify: @previous_Tab is displayed
+Step: Click on @previous_Tab
+Step: Click on @go_to_Task_List_Button
+Step: pause for 4 sec
+Step: Click on @Page_screen
+Step: pause for 1 sec
+Verify: @tasks_Page is displayed
+End

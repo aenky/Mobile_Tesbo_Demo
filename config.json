@@ -1,0 +1,88 @@
+{
+
+
+  "run": {
+    "appiumAddress": "http://0.0.0.0:4723/wd/hub",
+
+    "app" :
+    {
+      "Android" : "/Users/abc/Desktop/Leonardo/git/New_7_4/Leonardo_Automation/Leonardo_11_3.apk",
+      "iOS" : "/Users/abc/Desktop/Leonardo/App File/leonardo_app_react_26_3.app"
+    },
+
+
+     "by": {
+       "tag": ["ITC1"]
+     },
+     "devicesToRun": {
+       "name": [
+         "Samsung_S85"
+       ]
+     },
+
+      "retryAnalyser":{
+        "count":"0"
+      },
+
+      "deviceList": {
+        "Samsung_S85": {
+          "deviceName" : "ce051715b2392a1203",
+          "udid": "ce051715b2392a1203",
+          "platformName" : "Android",
+          "clearSystemFiles": true,
+          "bootStrspPort": 2296,
+          "chromePort": 6006,
+          "automationName" : "UiAutomator2",
+          "newCommandTimeout" : 60000,
+          "autoGrantPermissions" : true,
+          "autoAcceptAlerts" : true
+        },
+        "Moto": {
+          "deviceName" : "PLEGAR1771514804",
+          "udid": "PLEGAR1771514804",
+          "platformName" : "Android",
+          "clearSystemFiles": true,
+          "bootStrspPort": 2297,
+          "chromePort": 6007,
+          "automationName" : "UiAutomator2",
+          "newCommandTimeout" : 60000,
+          "autoGrantPermissions" : true,
+          "autoAcceptAlerts" : true
+        },
+        "iPhoneX": {
+          "platformName": "iOS",
+          "platformVersion": "12.1",
+          "deviceName": "iPhone X",
+          "fullReset": false,
+          "automationName": "XCUITest",
+          "autoGrantPermissions": true,
+          "autoAcceptAlerts": true,
+          "clearSystemFiles": true,
+          "newCommandTimeout": 60000
+
+        },
+        "iPhone11": {
+          "platformName": "iOS",
+          "platformVersion": "13.1",
+          "deviceName": "iPhone 11",
+          "fullReset": false,
+          "automationName": "XCUITest",
+          "autoGrantPermissions": true,
+          "autoAcceptAlerts": true,
+          "clearSystemFiles": true,
+          "newCommandTimeout": 60000
+
+        }
+      },
+
+      "SingleWindowRun": false,
+      "highlightElement": false
+
+  },
+  "cloudIntegration" : {
+    "report": false,
+    "apiKey": "89063e42aeb019f608d4d3127c626200",
+    "projectKey" : "5c88a06adfbbad0c046e333f",
+    "buildName":"QAble004"
+  }
+}
